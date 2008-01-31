@@ -1,0 +1,29 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2134
+
+sort vim7 tab page in 'buffer number' order.
+
+Installation
+------------
+1. Copy the tabpage_sort.vim script to the $HOME/.vim/plugin or
+   the $HOME/vimfiles/plugin. Refer to the ':help add-plugin',
+   ':help add-global-plugin' and ':help runtimepath' topics for
+   more details about Vim plugins.
+2. Restart Vim.
+
+Usage
+-----
+1. Run command ':TabpageSort', ':TabpageSort asc', ':TabpageSort desc',
+   ':TabpageSortAsc' or ':TabpageSortDesc'.
+
+   :TabpageSort           sort vim7 tab page in buffer number ascending order.
+   :TabpageSort asc       sort vim7 tab page in buffer number ascending order.
+   :TabpageSort desc      sort vim7 tab page in buffer number descending order.
+   :TabpageSortAsc        sort vim7 tab page in buffer number ascending order.
+   :TabpageSortDesc       sort vim7 tab page in buffer number descending order.
+
+Note
+----
+1. If current buffer size is over current 'tabpagemax' option setting,
+   'tabpagemax' option size is automatically expanded.
+   see ":help tabpagemax".
+
